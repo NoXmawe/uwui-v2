@@ -12,4 +12,4 @@ My Modifications
 
 License
 ==============
-[Gnu GPL v3](https://github.com/SohamG/uwui/blob/master/LICENSE)
+Gnu GPL v3
