@@ -65,7 +65,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"TargetDataLabel"
-		"font"				"Default"
+		"font"				"Bold9"
 		"xpos"				"0"
 		"ypos"				"18"
 		"zpos"				"1"
@@ -228,29 +228,7 @@
 			"brighttext"		"0"
 		}
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	
 
 
 
