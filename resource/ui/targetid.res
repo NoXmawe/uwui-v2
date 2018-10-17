@@ -1,7 +1,7 @@
 "Resource/UI/TargetID.res"
 {
 	"TargetNameLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"Bold12"
@@ -18,11 +18,11 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		
+
 		"auto_wide_tocontents"	"1"
 	}
 	"TargetNameLabelShadow"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabelShadow"
 		"font"			"Bold12"
@@ -44,12 +44,12 @@
 		"fgcolor"				"shadows"
 		"fgcolor_override"		"shadows"
 		"auto_wide_tocontents"	"1"
-		
+
 		"pin_to_sibling"		"TargetNameLabel"
 		"pin_corner_to_sibling"	"2"
 		"pin_to_sibling_corner"	"2"
 	}
-	
+
 	"examplething"
 	{
 		"ControlName"	"EditablePanel"
@@ -62,10 +62,10 @@
 		"bgcolor_override"	"blank"
 	}
 	"TargetDataLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"			"TargetDataLabel"
-		"font"				"Bold9"
+		"font"				"Default"
 		"xpos"				"0"
 		"ypos"				"18"
 		"zpos"				"1"
@@ -79,10 +79,10 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		
+
 		"bgcolor_override"	"Gray30"
 		"paintbackgroundtype"	"2"
-		
+
 		"auto_wide_tocontents"	"1"
 		"textinsetx"			"8"
 		"use_proportional_insets"	"1"
@@ -96,14 +96,14 @@
 		"wide"			"32"
 		"tall"			"16"
 		"visible"		"0"
-		"enabled"		"0"	
+		"enabled"		"0"
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
 	}
-	
+
 	"MoveableSubPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -115,9 +115,9 @@
 		"tall"			"35"
 		"visible"		"0"
 		"enabled"		"0"
-		
+
 		"bgcolor_override"	"blank"
-		
+
 		"MoveableIconBG"
 		{
 			"ControlName"	"CIconPanel"
@@ -134,7 +134,7 @@
 			"scaleImage"	"1"
 		}
 		"yoink"
-		{	
+		{
 			"ControlName"		"Label"
 			"fieldName"		"yoink"
 			"font"			"heavy8"
@@ -152,10 +152,10 @@
 			"textAlignment"		"center"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			
+
 			"bgcolor_override"	"Gray30"
 			"paintbackgroundtype"	"2"
-			
+
 			"pin_to_sibling"	"MoveableKeyLabel"
 			"pin_corner_to_sibling"	"7"
 			"pin_to_sibling_corner"	"7"
@@ -203,12 +203,12 @@
 			"image"			"../hud/eng_sel_item_movable"
 			"drawcolor"		"ProgressOffWhite"
 			"scaleImage"	"1"
-			
+
 			"proportionaltoparent"	"1"
 		}
 
 		"MoveableKeyLabel"
-		{	
+		{
 			"alpha"			"0"
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
@@ -228,33 +228,33 @@
 			"brighttext"		"0"
 		}
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	"AmmoIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -268,10 +268,10 @@
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_class_heavy"
 		"scaleImage"	"1"
-		
+
 		"alpha"			"0"
 	}
-	
+
 	"KillStreakIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -287,10 +287,10 @@
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
-		
+
 		"alpha"			"0"
 	}
-	
+
 	"AvatarImage"
 	{
 		"ControlName"	"CAvatarImagePanel"
@@ -303,13 +303,13 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"color_outline"	"52 48 45 255"
 	}
 	"TargetIDBG"
 	{
 		"alpha"			"0"
-		
+
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"0"
@@ -326,16 +326,16 @@
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
-		
+
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
 	"TargetIDBG_Spec_Blue"
 	{
 		"alpha"			"0"
-		
+
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"			"8"
@@ -348,12 +348,12 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
-		
+
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
-		
+
 		"pin_to_sibling"		"TargetNameLabel"
 		"pin_corner_to_sibling"	"2"
 		"pin_to_sibling_corner"	"3"
@@ -361,7 +361,7 @@
 	"TargetIDBG_Spec_Red"
 	{
 		"alpha"			"0"
-		
+
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"			"8"
@@ -374,12 +374,12 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_red"
-		
+
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
-		
+
 		"pin_to_sibling"		"TargetNameLabel"
 		"pin_corner_to_sibling"	"2"
 		"pin_to_sibling_corner"	"3"
