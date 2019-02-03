@@ -29,8 +29,8 @@
 {	
 	"Spacer" //NEW AGE HUD TECHNOLOGY
 	{	
-		"ypos"					"c90"
-		"wide"					"380"
+		"ypos"					"c110"
+		"wide"					"440"
 		"tall"					"60"
 
 //XXXXXXX avoid editing these please XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
