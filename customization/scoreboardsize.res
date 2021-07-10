@@ -27,7 +27,7 @@
 {	
 	"MainBG"
 	{
-		"tall"			"151"
+		"tall"			"199"
 		"tall_minmode"	"103"
 		
 		"ypos"			"cs-0.5+80"
@@ -35,12 +35,12 @@
 	}
 	"BluePlayerList"
 	{
-		"tall"			"151"
+		"tall"			"199"
 		"tall_minmode"	"103"
 	}
 	"RedPlayerList"
 	{
-		"tall"			"151"
+		"tall"			"199"
 		"tall_minmode"	"103"
 	}
 }
